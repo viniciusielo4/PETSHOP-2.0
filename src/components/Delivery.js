@@ -1,17 +1,15 @@
 import React from 'react'
-import bannerDois from '../imagens/banner.jpg';
+import Col from 'react-bootstrap/Col'
 
-function Delivery() {
+function Delivery(props) {
   return (
-    <div>
-      <section className='delivery'>
-        <img src={bannerDois}/>
-        <div className='txt'>
-            <h1>Atendimento Delivery</h1>
-            <h1>0800 555 3399</h1>
-        </div>
-      </section>
-    </div>
+    <Col className='delivery'>
+          <img className='img_Delivery' src={ props.imagemDelivery } alt={ props.altDelivery } />
+          <div className='atendimento_txt'>
+            <h3 className='titulo_delivery text-center'>{ props.tituloDelivery }</h3>
+            <h2 className='delivery_titulo text-center'>{ props.numeroDelivery }</h2>
+          </div>
+      </Col>
   )
 }
 
