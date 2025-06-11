@@ -1,6 +1,7 @@
 import React from 'react';
 import Contato from './Contato';
 import Mapa from './Mapa';
+import DireitosAutorais from './DireitosAutorais';
 
 
 function Footer() {
@@ -8,6 +9,7 @@ function Footer() {
     <div>
       <Contato/>
       <Mapa/>
+      <DireitosAutorais/>
     </div>
   )
 }

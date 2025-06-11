@@ -10,7 +10,7 @@ import TituloSecao from "../components/TituloSecao";
 import Cliente from "../components/Cliente";
 import Cachorro from "../imagens/rottweiller.jpg"
 import Delivery from "../components/Delivery";
-import Footer from "../components/Footer";
+
 
 const Home = () => {
 	return (
