@@ -6,10 +6,11 @@ import banhoTosa from "../imagens/banhoTosa.jpg";
 import vacinaCachorro from "../imagens/vacina-cachorro.jpg";
 import adestramento from "../imagens/adestramento.jpg";
 import hotelResort from "../imagens/hotel-para-cachorros.jpg";
-import TituloSecao from "../components/TituloSecao";
 import Cliente from "../components/Cliente";
 import Cachorro from "../imagens/rottweiller.jpg"
 import Delivery from "../components/Delivery";
+import CallToAction from "../components/CallToAction";
+import ContentImgRight from "../components/ContentImgRight";
 
 
 const Home = () => {
@@ -17,18 +18,18 @@ const Home = () => {
 		<div>
 			<Banner/>
 
-			<section className='section d-flex py-5'>
+			<section className='section  py-5'>
+				<div className="row">
 			<Servico imagemServico={ banhoTosa } tituloImagem="Banho e Tosa para Pets" tituloServico="Banho e Tosa" />
 			<Servico imagemServico={ vacinaCachorro } tituloImagem="Pet care para pets" tituloServico="Pet Care" />
 			<Servico imagemServico={ adestramento } tituloImagem="Adestramento para pets" tituloServico="Adestramento" />
 			<Servico imagemServico={ hotelResort } tituloImagem="Hotel e resorts para pets" tituloServico="Hotel Resort" />
+			</div>
 			</section>
 
-			<TituloSecao />
+			<CallToAction titulo="SEJA BEM VINDO AO PET SHOP" />
 
-			<section className='section d-flex'>
-			<Cliente tituloCliente="Relação com o cliente" textCliente="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt arcu, eu porttitor odio efficitur eget. Nunc sed augue sit amet dolor molestie interdum sed et erat. Vivamus nisi enim, eleifend id ex quis, accumsan ornare felis. Ut vel libero consequat, rhoncus orci id, auctor lorem. Donec mollis pellentesque magna a vestibulum. Nam sed arcu sit amet sapien tincidunt convallis a non quam. Cras efficitur lacus sit amet risus eleifend tincidunt. Nullam et felis molestie, tempus libero ut, egestas erat. Vestibulum iaculis efficitur felis at ornare. Quisque sed imperdiet neque. Suspendisse suscipit efficitur lacus, et scelerisque purus facilisis sit amet. Cras a quam id nisi pretium tempor. Pellentesque mattis sapien non quam gravida, a interdum massa congue. Sed in turpis dapibus, vehicula enim ut, sollicitudin lorem." Cliente imagemCliente={ Cachorro } />
-			</section>
+             <ContentImgRight titulo="Relação com cliente" texto="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." imagem={ Cachorro} alt='Foto do Rotwiller'/>
 
 			<section className="d-flex">
 				<Delivery imagemDelivery={ banner } tituloDelivery="Atendimento Delivery" numeroDelivery="0800 555 3232" />

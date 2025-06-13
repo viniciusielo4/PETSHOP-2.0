@@ -96,6 +96,9 @@
 	padding-top: 5%;
 	font-weight: bolder;
 	color: black;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .delivery {
@@ -187,4 +190,21 @@ iframe{
 	border-radius: 0 20px 20px 0;
 	text-transform: uppercase;
 	margin: 30px 0;
+}
+.bannerPromo{
+ width: 100%;
+ background-color: #f1f1f1;
+ padding: 30px 0;
+}
+.bannerPromo h1{
+	text-align: center;
+}
+button{
+	background-color: #333;
+	color: #fff;
+	border-radius:  5px !important;
+	padding: 5px 20px;
+}
+button:hover{
+	background-color: #000;
 }
