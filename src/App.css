@@ -208,3 +208,12 @@ button{
 button:hover{
 	background-color: #000;
 }
+.photos img{
+	width: 250px;
+	height: 180px;
+	margin: 5px;
+}
+.photos{
+	display: flex;
+	padding-bottom: 50px ;
+}

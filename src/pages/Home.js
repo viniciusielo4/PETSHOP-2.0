@@ -34,6 +34,10 @@ const Home = () => {
 			<section className="d-flex">
 				<Delivery imagemDelivery={ banner } tituloDelivery="Atendimento Delivery" numeroDelivery="0800 555 3232" />
 			</section> 
+			<section className='section d-flex'>
+            <Cliente tituloCliente="Relação com o cliente" textCliente="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tincidunt arcu, eu porttitor odio efficitur eget. Nunc sed augue sit amet dolor molestie interdum sed et erat. Vivamus nisi enim, eleifend id ex quis, accumsan ornare felis. Ut vel libero consequat, rhoncus orci id, auctor lorem. Donec mollis pellentesque magna a vestibulum. Nam sed arcu sit amet sapien tincidunt convallis a non quam. Cras efficitur lacus sit amet risus eleifend tincidunt. Nullam et felis molestie, tempus libero ut, egestas erat. Vestibulum iaculis efficitur felis at ornare. Quisque sed imperdiet neque. Suspendisse suscipit efficitur lacus, et scelerisque purus facilisis sit amet. Cras a quam id nisi pretium tempor. Pellentesque mattis sapien non quam gravida, a interdum massa congue. Sed in turpis dapibus, vehicula enim ut, sollicitudin lorem." Cliente imagemCliente={ Cachorro } />
+            </section>
+
 			
 			
 		</div>
